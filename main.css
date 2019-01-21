@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+ 
+ 
+ 
+ /*navbar*/
+ ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 100;
+  overflow: auto;
+  background-color: rgba(78, 139, 49, 0);
+  position: auto;
+  width: 100%;
+  height:auto;
+  top:auto;
+}
+li {
+  border-right: none;
+  float: right;
+  font-family: 'Roboto Slab', serif;
+  color:rgb(238, 238, 238);
+  font-size: 20px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:dotted;
+}
+
+li a:hover {
+  background-color: none;
+  text-decoration-line: none;
+  font-family: 'Roboto Slab', serif;
+  color:rgb(250, 250, 250);
+  font-size: 40px;
+  
+  
+}
+
+/* end of nav bar--------------- */
+
+h1 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+
+}
+.img1 {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  padding-inline-start: 12%;
+  padding-block-start: 8%;
+}
+  .img2 {
+    width: 3%;
+    height: 3%;
+  }
+
+  .h1x {
+    font-family: 'Roboto Slab', serif;
+    color:rgb(18, 105, 0);
+    font-size: 40px;
+    text-align: start;
+    top: 5%;
+    height: 2%;
+    text-shadow: 5px 6px rgba(51, 51, 51, 0.205);
+  }
+  p {
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto Slab', serif;
+  color:rgb(36, 36, 36);
+  font-size: 20px;
+  
+ }
+  .p1 {
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto Slab', serif;
+  color:rgb(36, 36, 36);
+  font-size: 20px;
+  text-indent: 50%;
+  text-align: justify;
+ }
+  .Bone {
+
+    background-image: url("data/mainb3.png") ;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    height: 700px;
+    width: 100%;
+    display: auto;
+  }
+  .Btow {
+
+    background-color: rgba(125, 185, 62, 0.904);
+    background-size: auto;
+   
+    background-repeat:   no-repeat;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    /*background Shadow play-------------------------------*/
+    border-left: solid 70px transparent; 
+  border-right: solid 70px transparent; 
+  filter: drop-shadow(0 0 30px #333);
+  }
+  /*----------------------------------------------*/
+  .Bthree {
+
+    background-color: rgb(216, 216, 216) ;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    height: 400px;
+    width: 100%;
+    display:auto;
+  }
+
+
+
+     .box1{
+
+      width: auto;
+     height: 80%;
+     margin: 10% 5% 04%  10%;
+      overflow:auto;
+      font-size: medium;
+      text-align: center;
+     }
+    
+     .bx{
+      height: 20%;
+     }
+
+
+     footer {
+      position: auto;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height:auto;
+      background-color: rgb(3, 204, 177);
+      color: white;
+      text-align: center;
+      border-left: solid 70px transparent; 
+  border-right: solid 70px transparent; 
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.89));
+    }
